@@ -1,0 +1,30 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  color: white;
+  background: #2b2b2b;
+  font-size: 2rem;
+  text-align: center;
+}
+input{
+  height: 5vh;
+  display: inline-block;
+  
+}
+
+li {
+    margin: 10px;
+    padding: .5em;
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .not-selected {
+    background-color: blue;
+  }
+  .selected {
+    background-color: red;
+  }

@@ -1,6 +1,7 @@
 import './App.css';
 import { DataList } from './MyContext';
 import Form from './Form';
+import ToDoList from './TodoList';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <DataList>
         <Form />
+        <ToDoList />
       </DataList>
     </div>
   );
